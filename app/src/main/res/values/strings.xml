@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Mentoring</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Basty bet</string>
+    <string name="title_dashboard">Habarlamalar</string>
+    <string name="title_notifications">Profile</string>
+    <string-array name="groups">
+        <item>3A</item>
+        <item>3B</item>
+        <item>3D</item>
+        <item>3E</item>
+        <item>3F</item>
+        <item>2C</item>
+        <item>2F</item>
+        <item>2G</item>
+        <item>2H</item>
+        <item>2I</item>
+        <item>1B1</item>
+        <item>1B2</item>
+        <item>1E</item>
+        <item>1G</item>
+        <item>1D</item>
+    </string-array>
+    <string-array name="directions">
+        <item>Web developing</item>
+        <item>Android developing</item>
+        <item>IOS developing</item>
+        <item>Marketing</item>
+        <item>SMM</item>
+        <item>Grapth design</item>
+        <item>Ui/Ux</item>
+    </string-array>
+    <string-array name="groups_with">
+        <item>3A</item>
+        <item>3B</item>
+        <item>3D</item>
+        <item>3E</item>
+        <item>3F</item>
+        <item>2C</item>
+        <item>2F</item>
+        <item>2G</item>
+        <item>2H</item>
+        <item>2I</item>
+        <item>1B1</item>
+        <item>1B2</item>
+        <item>1E</item>
+        <item>1G</item>
+        <item>1D</item>
+        <item>Teacher</item>
+    </string-array>
+</resources>

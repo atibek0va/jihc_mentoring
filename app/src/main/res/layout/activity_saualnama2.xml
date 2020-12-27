@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saualnama2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#BEDADA">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qaı topta oqısyz?"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"></TextView>
+        <Spinner
+            android:id="@+id/spinner_groupp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qaı baǵytty tańdaısyz?"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:textSize="23dp"
+            android:layout_marginTop="50dp"></TextView>
+        <Spinner
+            android:id="@+id/spinner_direction"
+            android:layout_width="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jalǵastyrý"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#008285"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

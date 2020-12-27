@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saualnama4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#BEDADA">
+        <TextView
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mentor bolýǵa daıynsyzba? Stýdentke baǵyt bere alam dep oılaısyzba?"
+            android:textSize="23dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#000000"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <EditText
+            android:id="@+id/editAnswer"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:ems="10"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:inputType="text"
+            android:text="Mentormen bolǵym keledi, sebebi..."
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/btnOtuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profılge ótý"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#008285"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
